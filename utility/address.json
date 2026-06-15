@@ -1,0 +1,105 @@
+{
+  "sepolia": {
+    "UAP_Logical": "0xBe420445881086108C9f5ca246B0D11452B822ad",
+    "UAP_Proxy": "0x947c674301e3D13E9c3337FA7f50099755961d2D",
+    "USDT": "0xA6bf63819CECf9c7b80e2D5cb7BaBF9D886252b0",
+    "Factory": "0xF62c03E08ada871A0bEb309762E260a7a6a880E6",
+    "UniswapV2Router": "0xeE567Fe1712Faf6149d80dA1E6934E354124CfE3",
+    "USDT_UAP_Pair": "0xa421FAd64A732Cd76aF9c1961CB3eC4A0a02e0E7"
+  },
+  "_comments": "UAP which is bridged to BEAM",
+  "sepolia_old": {
+    "UAP_Logical": "0x4cD281f805f8A55bCfFff865EA3cCc659B03F0df",
+    "UAP_Proxy": "0xb970778737Dd4015A5e4b3c7ecdd5fBC37c14332"
+  },
+  "base_sepolia": {
+    "UAP_Logical": "0x8fBA875Bb9068D80c84f90BDC5e132598B38363f",
+    "UAP_Proxy": "0x203D05c4595Dc22D8271cD113924dbbcBC189339"
+  },
+
+  "helper_beam_test_dev": "When update the supergalatic factory logic the deadline param of mintwithBeam function is removed so need to update corresponding sdk function. And also need to check wait period is implemented correct on frontend side for usdt mint",
+  "beam_test_dev": {
+    "Signer": "0xe2dbdA1BFD82852D8c15129A4A94847e1b2b373A",
+    "WETH": "0xC9A1B0dA5B7e8D094B3084e64a2C6476faB9fDBf",
+    "USDT": "0x721dC57c1d8446F0104f082d8ACc3C0f8e3BcaF2",
+    "UFO": "0x71dB19A5CDda434FeE82317aAAbA3006EEF58e15",
+    "Plasma": "0xD9e6a34db7561c5541FC482BA2f1394BFCd55409",
+    "UAP_Logical": "0x1CA87a8A9ACC4D8D69eCFF5d13d8a4AD3282bD5f",
+    "UAP_Proxy": "0x10c156f75a0385d48fe9a049444C8D0dE5184D74",
+    "Beacon": "0x421893e9D250469ABEeD8f14d116b6577E9eA564",
+    "SuperGalatic_Logical": "0x9127F289Bc449C918D97284747F63aB295F9cB7B",
+    "SuperGalaticFactory_Logical": "0x057595348C5C9A60C854C719Db60Ba2A0aB8530F",
+    "SuperGalaticFactory_Proxy": "0x4Eae156ce80a14c408c4bbB93D0719F684C40013",
+    "FactoryHelper": "0x0D8226C8ef77C4B25511cD60461C03C3a5d7E273",
+    "Marketplace_Logical": "0x061125f22d27d334393ca61f53C25432FDDF5a58",
+    "Marketplace_Proxy": "0x0da890E13cbD398065B8055FD210A100E71125d2",
+    "Escrow": "0xA28e9a654cFA9cc3b97C539619782bF4bB722033",
+    "Weapon_Logical": "0x2120272dBf316f6cD7aEd30bBB3730304232376B",
+    "Weapon_Proxy": "0x1a4996bf7B5C9b2B4B00cCe35F0f98a509C55694",
+    "USDT_BEAM_Pair": "0x857a801Afe05405714a8183497094981E4B58eAF",
+    "UniswapV2Router": "0xB4cFBc4836c5a0Eb27A502B6008f9baF3Bf8b3Ee"
+  },
+  "beam_test_staging": {
+    "Signer": "0xe2dbdA1BFD82852D8c15129A4A94847e1b2b373A",
+    "WETH": "0xC9A1B0dA5B7e8D094B3084e64a2C6476faB9fDBf",
+    "USDT": "0x721dC57c1d8446F0104f082d8ACc3C0f8e3BcaF2",
+    "UFO": "0x71dB19A5CDda434FeE82317aAAbA3006EEF58e15",
+    "Plasma": "0xD9e6a34db7561c5541FC482BA2f1394BFCd55409",
+    "UAP_Logical": "0x1CA87a8A9ACC4D8D69eCFF5d13d8a4AD3282bD5f",
+    "UAP_Proxy": "0x10c156f75a0385d48fe9a049444C8D0dE5184D74",
+    "Beacon": "0xc9BDfA015c181CAbFEa8fCD44923628eb92e9895",
+    "SuperGalatic_Logical": "0x212b48D559bB2b2F0c240Fe165E532F241715031",
+    "SuperGalaticFactory_Logical": "0xf829B814ba9C9508A38Ab6453E8407eB269f127A",
+    "SuperGalaticFactory_Proxy": "0x386D0F5B1cD4e1064a0F8d4944748dd81D6358e3",
+    "FactoryHelper": "0x09eAe6CdD86DE2fB49DF22F9E5175f43e933A923",
+    "Marketplace_Logical": "0x60B1547E10D9760b34A36B72D49296063d97A106",
+    "Marketplace_Proxy": "0x2A4CB7080EC395E274C6ED551D0B21d091b6E9ba",
+    "Escrow": "0x9766350BB5F8fe7b6bB133426559FdEB93A09426",
+    "Weapon_Logical": "0x0402ff993Cdc845De26F5e7287Af253eF3fbA04d",
+    "Weapon_Proxy": "0x8fF911F716421ABb890a32818612CdE30C6ddC9E",
+    "USDT_BEAM_Pair": "0x857a801Afe05405714a8183497094981E4B58eAF",
+    "UniswapV2Router": "0xB4cFBc4836c5a0Eb27A502B6008f9baF3Bf8b3Ee"
+  },
+  "beam_mainnet":{
+    "Signer": "0xe2dbdA1BFD82852D8c15129A4A94847e1b2b373A",       //real
+    "WETH": "0x82D76C1749795Ca761579d6083E2681CA53f66f2",         //fake
+    "USDT": "0x999f90f25a2922ae1b21A06066F7EDEbedad42a9",         //real
+    "UFO": "0x82D76C1749795Ca761579d6083E2681CA53f66f2",          //fake
+    "Plasma": "0x0A9aEb62a5daDB868B2c7a3C3d5419060172Cc34",       //real
+    "UAP_Logical": "0x82D76C1749795Ca761579d6083E2681CA53f66f2",  //fake
+    "UAP_Proxy": "0x82D76C1749795Ca761579d6083E2681CA53f66f2",    //fake
+    "Beacon": "0x16374fb15F0d1A6D0b1EcDe401Bdc901385807F0",       //real
+    "SuperGalatic_Logical": "0x9b76f8452926348783C02f72a54e61921D5891a5",         //real
+    "SuperGalaticFactory_Logical": "0xf54B315AEDCC9918ccF259C0E736F88e33237D2F",  //real
+    "SuperGalaticFactory_Proxy": "0x4a8E5Da7A04bF193218F45BB61101fB9f818CfFd",    //real
+    "FactoryHelper": "0xD438DC6F7F245dFb767c0456f3091470a97c10a5",                //real
+    "Marketplace_Logical": "0x1587dAc2E8B7681E44BF7B8109eb73295dA755ca",          //real
+    "Marketplace_Proxy": "0xAa3bAE85597Dc6d382d53Bf672b84e0b14518fbE",            //real
+    "Escrow": "0xa060aebec76329EDa758bAc070e04D7d887333f5",                       //real
+    "Weapon_Logical": "0x3375Fd959d334FC015e667E2CA6fcF3a44Ad1588",               //real
+    "Weapon_Proxy": "0xd04b59ED079AC0bECCC5c46FC66C35c157cCB6F6",                 //real
+    "USDT_BEAM_Pair": "0x7063F3446223Bc4f5c37B0F9d1e12547F0358e90",               //real
+    "UniswapV2Router": "0x965B104e250648d01d4B3b72BaC751Cde809D29E"               //real    
+  },
+  "mainnet":{
+    "Signer": "0xe2dbdA1BFD82852D8c15129A4A94847e1b2b373A",       //real
+    "WETH": "0x82D76C1749795Ca761579d6083E2681CA53f66f2",         //fake
+    "USDT": "0x999f90f25a2922ae1b21A06066F7EDEbedad42a9",         //real
+    "UFO": "0x82D76C1749795Ca761579d6083E2681CA53f66f2",          //fake
+    "Plasma": "0x0A9aEb62a5daDB868B2c7a3C3d5419060172Cc34",       //real
+    "UAP_Logical": "0x82D76C1749795Ca761579d6083E2681CA53f66f2",  //fake
+    "UAP_Proxy": "0x82D76C1749795Ca761579d6083E2681CA53f66f2",    //fake
+    "Beacon": "0x16374fb15F0d1A6D0b1EcDe401Bdc901385807F0",       //real
+    "SuperGalatic_Logical": "0x9b76f8452926348783C02f72a54e61921D5891a5",         //fake
+    "SuperGalaticFactory_Logical": "0xf54B315AEDCC9918ccF259C0E736F88e33237D2F",  //fake
+    "SuperGalaticFactory_Proxy": "0x4a8E5Da7A04bF193218F45BB61101fB9f818CfFd",    //fake
+    "FactoryHelper": "0xD438DC6F7F245dFb767c0456f3091470a97c10a5",                //fake
+    "Marketplace_Logical": "0x1587dAc2E8B7681E44BF7B8109eb73295dA755ca",          //fake
+    "Marketplace_Proxy": "0xAa3bAE85597Dc6d382d53Bf672b84e0b14518fbE",            //fake
+    "Escrow": "0xa060aebec76329EDa758bAc070e04D7d887333f5",                       //fake
+    "Weapon_Logical": "0x3375Fd959d334FC015e667E2CA6fcF3a44Ad1588",               //fake
+    "Weapon_Proxy": "0xd04b59ED079AC0bECCC5c46FC66C35c157cCB6F6",                 //fake
+    "USDT_BEAM_Pair": "0x7063F3446223Bc4f5c37B0F9d1e12547F0358e90",               //fake
+    "Transfer_Address": "0x965B104e250648d01d4B3b72BaC751Cde809D29E"               //real    
+  }
+}

@@ -1,7 +1,0 @@
-## Trust
-##Bep20: 0xfbf6766197cafc14fac0effafeab316a1811477e
-##Trc20: TXF1MLjjCj9QWNeB8MURt2gFxuqmL3jLVE
-
-## CW
-##Bep20: 0x02000aB6f0aaB3297f68C6bebbc91Db8F098D46c
-##Trc20: TA9nQMJ5ysv6GghgwpLpMyM2E5puJJaYSY
